@@ -1,0 +1,20 @@
+* no desenvolvimento web HTML é o subistantivo 
+exemplo : <p> 
+significa "paragrafo"
+
+* O css é o adjetivo 
+exemplo p{ color: red;} 
+significa "o paragrafo é vermelho"
+
+e o javascript é o verbo
+ exemplo p.hide():
+ significa " esconda esse paragrafo"
+ pode adcionar efeitos dinamicos nas paginas..
+ aprender muito bem javascript é melhor que aprender frameworks
+ da pra fazer  aplicaçoes na web com node.js 
+ javascript pode ser usado pra aplicaçoes moveis com ionic e react
+ javascript pode ser usado para aplicaçoes de desktop com 
+
+ ES significa ECMASript..
+
+/jonasschmedtmann/cmplete-javascript-course
