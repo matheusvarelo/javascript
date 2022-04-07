@@ -254,3 +254,7 @@ if (koala > dolphins) {
 } else if (dolphins > koala) {
     console.log(` o vencedor foram os ${ganhador} com  media de ${dolphins}`)
 }
+
+//teste editando script no vscode web
+// teste
+
