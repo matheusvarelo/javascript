@@ -253,6 +253,11 @@ if (koala > dolphins) {
     console.log(` o vencedor foram os ${koala}`)
 } else if (dolphins > koala) {
     console.log(` o vencedor foram os ${ganhador} com  media de ${dolphins}`)
+<<<<<<< HEAD
+}   
+ //teste editando script no vscode web
+// teste teste 00 16
+=======
 }
 
 
@@ -307,3 +312,4 @@ const bill = 430
 let totalTip = bill < 50 || bill > 300 ? console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 20} e o total foi ${bill + (bill / 100) * 20}`) : console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 15} e o total foi ${bill + (bill / 100) * 15}`)
 
 */ 
+>>>>>>> f397a73df27f8b63e02d956a3d07b1a09734f371
