@@ -306,4 +306,4 @@ const bill = 430
 
 let totalTip = bill < 50 || bill > 300 ? console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 20} e o total foi ${bill + (bill / 100) * 20}`) : console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 15} e o total foi ${bill + (bill / 100) * 15}`)
 
-*/ asdas
+*/ 
