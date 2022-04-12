@@ -215,7 +215,7 @@ if (age === 19) console.log(' és um adulto')
 18 === 19 //false
 19 == 19 //false
 
-// 2 iguais retorna  se os numeros forem iguais mas nao faz type coercion 
+// 2 iguais retorna  se os numeros forem iguais mas nao faz type coercion
 
 '18' == 18// true
 10 == 10 // true
@@ -234,7 +234,7 @@ if (favorite === 23) {
     console.log('bom tbm 7 é pica')
 }
 
-*/
+
 
 // coding chalenge #3
 
@@ -255,6 +255,55 @@ if (koala > dolphins) {
     console.log(` o vencedor foram os ${ganhador} com  media de ${dolphins}`)
 }
 
-//teste editando script no vscode web
-// teste teste 00 16
 
+
+
+// The switch Statemant
+
+const day = 'monday'
+
+switch (day) {
+    case 'monday': // day ===monday
+        console.log('foi na segunda')
+        console.log('codding')
+        break
+    case 'tuesday':
+        console.log('foi na terça')
+        console.log('codding')
+        break
+    case 'wednesday':
+    case 'thursday':
+        console.log('duplo')
+        break
+    case 'friday':
+        alert('sextou')
+        break
+    case 'saturday':
+    case 'sunday':
+        alert('aproveita ai mlk doido')
+        break;
+    default:
+        console.log('bugou')
+
+}
+
+
+
+// the conditional (ternary) operator
+
+const age = 24
+age >= 18 ? console.log('eu bebo coca') : console.log('eu bebo vodka')
+
+const drink = age >= 18 ? 'wine' : 'agua';
+console.log('drink')
+
+
+//Coding chalenge #4
+
+let tip = ''
+
+const bill = 430
+
+let totalTip = bill < 50 || bill > 300 ? console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 20} e o total foi ${bill + (bill / 100) * 20}`) : console.log(` a conta foi ${bill} e o  a gorjeta ${(bill / 100) * 15} e o total foi ${bill + (bill / 100) * 15}`)
+
+*/
